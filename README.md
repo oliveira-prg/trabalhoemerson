@@ -97,6 +97,13 @@ python main.py
 - Python 3.x
 - Nenhuma biblioteca externa é necessária (apenas bibliotecas padrão como `re`, `itertools`, `os`).
 
+## Autores
+
+- GABRIEL SOARES COLARES
+- ALESSANDRO SILVA LEMOS
+- LUIZ PABLO BEZERRA DA SILVA
+- DAVI CASTELO BRANCO DO NASCIMENTO
+
 ---
 
 Desenvolvido como trabalho prático para a disciplina de Matemática Discreta.
