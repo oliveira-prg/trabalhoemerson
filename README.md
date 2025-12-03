@@ -60,7 +60,7 @@ Q
 
 ## **Exemplo de uso (Predicados):**
 * Domínio: a, b
-* Premissas: (∀x)P(x)
+* Premissas: (Ax)P(x)
 * Conclusão: P(a)
 * Resultado: Válido
 
