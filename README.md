@@ -46,15 +46,15 @@ Este projeto implementa um verificador para lógica proposicional e lógica de p
 - evaluator.py
 
 ## **Exemplo de uso (Proposicional):**
-* Premissas:
+**Premissas:**
 
-P -> Q
+- P -> Q
 
-P
+- P
 
-### **Conclusão:**
+**Conclusão:**
 
-Q
+- Q
 
 *Resultado: Válido (Modus Ponens)*
 
@@ -72,7 +72,7 @@ Q
 
 ### **Autores:** 
 * Antonio Kássio(),
-* Eduardo Brandão(),
+* Eduardo Bandeira(),
 * Hamilton Isaac(),
 * Mario Silva(),
 * Matheus Oliviera (https://github.com/oliveira-prg),
