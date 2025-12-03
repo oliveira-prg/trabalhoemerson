@@ -17,13 +17,18 @@ def get_variables(expr: str):
     return sorted(unique_vars)
 
 def parse_expr(expr: str):
-    expr = expr.replace(" v ", " or ")
-    expr = expr.replace(" ", "")
+    expr = expr.strip()    
+    expr = expr.replace("<->", " == ")
+    expr = expr.replace("->", " <= ")
     expr = expr.replace("~", " not ")
     expr = expr.replace("&", " and ")
     expr = expr.replace("∧", " and ")
     expr = expr.replace("|", " or ")
     expr = expr.replace("∨", " or ")
-    expr = expr.replace("<->", " == ")
-    expr = expr.replace("->", " <= ")
+    expr = expr.replace(" v ", " or ")
+    expr = expr.replace("not", " not ")
+    expr = expr.replace("and", " and ")
+    expr = expr.replace("or", " or ")
+    expr = expr.replace("==", " == ")
+    expr = expr.replace("<=", " <= ")
     return expr

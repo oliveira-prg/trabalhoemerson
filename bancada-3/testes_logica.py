@@ -152,3 +152,19 @@ def executar_teste(indice):
                 pass
                 
     input("\nPressione Enter para voltar...")
+
+if __name__ == "__main__":
+    print("Executando todos os testes sequencialmente para validação...")
+    # Mock do input para não pausar a execução em massa
+    original_input = __builtins__.input
+    __builtins__.input = lambda x=None: None
+    
+    try:
+        for i in range(len(CASOS_TESTE)):
+            executar_teste(i)
+        print("\nTodos os testes executados com sucesso!")
+    except Exception as e:
+        print(f"\nERRO DURANTE EXECUÇÃO DOS TESTES: {e}")
+        raise e
+    finally:
+        __builtins__.input = original_input

@@ -27,9 +27,9 @@ def menu_proposicional():
     print("\n-------------------------------------------------")
     print("SAÍDA:")
     if ok:
-        print("✓ ARGUMENTO VÁLIDO")
+        print("[OK] ARGUMENTO VÁLIDO")
     else:
-        print("✗ ARGUMENTO INVÁLIDO")
+        print("[X] ARGUMENTO INVÁLIDO")
     
     print("Método: Tabela Verdade")
     print("Forma detectada:", forma)
@@ -66,9 +66,9 @@ def menu_predicados():
     print("\n-------------------------------------------------")
     print("SAÍDA:")
     if ok:
-        print("✓ ARGUMENTO VÁLIDO")
+        print("[OK] ARGUMENTO VÁLIDO")
     else:
-        print("✗ ARGUMENTO INVÁLIDO")
+        print("[X] ARGUMENTO INVÁLIDO")
     
     print("Método: Enumeração em domínio finito")
     print("Justificativa: Para todas as interpretações possíveis no domínio dado, a conclusão segue das premissas.")
@@ -93,8 +93,8 @@ def menu_ajuda():
         print("\n--- LÓGICA PROPOSICIONAL ---")
         print("Operadores Suportados:")
         print("  ~      : Negação (NÃO)")
-        print("  & ou ∧ : Conjunção (E)")
-        print("  | ou ∨ : Disjunção (OU)")
+        print("  & ou ^ : Conjunção (E)")
+        print("  | ou v : Disjunção (OU)")
         print("  ->     : Implicação (Se... então)")
         print("  <->    : Bicondicional (Se e somente se)")
         print("\nExemplo de Argumento Válido (Modus Ponens):")
