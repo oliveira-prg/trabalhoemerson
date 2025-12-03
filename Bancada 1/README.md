@@ -4,7 +4,7 @@
 Este projeto implementa um verificador para lógica proposicional e lógica de predicados com domínio finito. Utiliza análise sintática, avaliação semântica e enumeração de interpretações para determinar a validade de argumentos fornecidos pelo usuário.
 
 ## **Bibliotecas Utilizadas:**
-* sympy.logic
+* Python alguma coisa
 
 ## **Funcionalidades:**
 * Verificação de validade em lógica proposicional via tabela verdade.
