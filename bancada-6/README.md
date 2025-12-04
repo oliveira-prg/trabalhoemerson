@@ -45,9 +45,7 @@ pip install pyparsing
 
 ### Executando o Sistema
 ```bash
-# Com interface gráfica
-python calculadora_lógica.py
-
+# python calculadora_lógica.py
 ```
 
 ---
