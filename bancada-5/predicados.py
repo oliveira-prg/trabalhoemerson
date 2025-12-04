@@ -143,7 +143,7 @@ def criar_parser_predicados():
 
 # ---------------- AVALIAÇÃO EM DOMÍNIO FINITO ----------------
 
-def avaliar_predicado(pred: Predicado, interpretacao, ambiente):
+def avaliar_predicado(pred: Predicado, dominio, interpretacao, ambiente):
     nome = pred.nome
     args = []
     for arg in pred.args:
