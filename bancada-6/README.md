@@ -139,7 +139,9 @@ onde c₁, c₂ são constantes de Skolem
 
 ### Video demonstração e testes
 
-|https://drive.google.com/file/d/1qGnB-3yNGkhUmPpnDnA3cD9fpDZZXKfT/view?usp=drive_link|
+|---------------------------------------------------------------------------------------|
+| https://drive.google.com/file/d/1qGnB-3yNGkhUmPpnDnA3cD9fpDZZXKfT/view?usp=drive_link |
+|---------------------------------------------------------------------------------------|
 
 ### Lógica Proposicional
 
