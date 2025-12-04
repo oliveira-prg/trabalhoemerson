@@ -135,7 +135,12 @@ onde c₁, c₂ são constantes de Skolem
 
 ---
 
-## Casos de Teste
+### Casos de Teste
+
+## Video demonstração dos Casos de Teste
+```link:
+https://drive.google.com/file/d/1qGnB-3yNGkhUmPpnDnA3cD9fpDZZXKfT/view?usp=drive_link
+```
 
 ### Lógica Proposicional
 
