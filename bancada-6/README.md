@@ -279,7 +279,7 @@ Este projeto foi desenvolvido como trabalho acadêmico para a disciplina de Mate
 
 ## Contribuidores
 
-- Chrysthyan
+- Chrysthyan (https://github.com/matheuschrys)
 - Marcos V. Gonzaga
 - Thiago Willian
 - Eric Gabriel
