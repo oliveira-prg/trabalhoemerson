@@ -4,7 +4,10 @@
 Este projeto implementa um verificador para lógica proposicional e lógica de predicados com domínio finito. Utiliza análise sintática, avaliação semântica e enumeração de interpretações para determinar a validade de argumentos fornecidos pelo usuário.
 
 ## **Bibliotecas Utilizadas:**
-* Python
+* itertools
+* re
+* os
+* sys
 
 ## **Funcionalidades:**
 * Verificação de validade em lógica proposicional via tabela verdade.
@@ -22,28 +25,21 @@ Este projeto implementa um verificador para lógica proposicional e lógica de p
   * Sair
    
 ## **Estrutura:**
-**verificador/**
-- main.py
+Organizadas em blocos ao invés de arquivos separados.
 
+**PARTE 1 - Motor de Tabela Verdade**
 
-**proposicional/**
-- ast.py
+* class MotorProposicional: ***def***(traduzir, identificar_forma e gerar_tabela)
 
-- parser.py
+  
+**PARTE 2 - Motor de Predicados**
+  
+* class MotorPredicados: ***def***( expandir_formulas, gerar_eexplicacao e verificar)
 
-- eval.py
+  
+**PARTE 4 - Interface de Usuário**
 
-- tabela_verdade.py
-
-- forms.py
-
-
-**predicados/**
-- ast.py
-
-- parser.py
-
-- evaluator.py
+* ***def***(limpar, ler_int, exibir_resultado, main)
 
 ## **Exemplo de uso (Proposicional):**
 **Premissas:**
