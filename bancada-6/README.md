@@ -138,9 +138,8 @@ onde c₁, c₂ são constantes de Skolem
 ## Casos de Teste
 
 ### Video demonstração e testes
-```link:
-https://drive.google.com/file/d/1qGnB-3yNGkhUmPpnDnA3cD9fpDZZXKfT/view?usp=drive_link
-```
+
+|https://drive.google.com/file/d/1qGnB-3yNGkhUmPpnDnA3cD9fpDZZXKfT/view?usp=drive_link|
 
 ### Lógica Proposicional
 
